@@ -1,0 +1,2 @@
+virtualbox-ext-pack: package-contains-empty-directory usr/share/virtualbox-ext-pack/
+virtualbox-ext-pack: empty-binary-package

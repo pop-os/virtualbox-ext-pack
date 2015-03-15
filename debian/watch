@@ -1,0 +1,2 @@
+version=3
+https://www.virtualbox.org/wiki/Downloads http://download.virtualbox.org/virtualbox/[\d\.]+/Oracle_VM_VirtualBox_Extension_Pack-([\d\.]+)[-\d]+.vbox-extpack

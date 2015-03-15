@@ -1,0 +1,23 @@
+#!/bin/sh
+set -e
+
+version=4.3.4
+hash=f92d187a84bfed22635fc2d6167c5c42
+file=Oracle_VM_VirtualBox_Extension_Pack-$version.vbox-extpack
+
+error ()
+{
+	echo "Hash mismatch $file"
+	exit 1
+}
+
+
+if [ "$1" = "configure" ] ; then
+	cd /usr/share/virtualbox-ext-pack
+	echo "virtualbox-ext-pack: downloading: http://download.virtualbox.org/virtualbox/$version/$file"
+	wget -q -N http://download.virtualbox.org/virtualbox/$version/$file
+	echo "$hash  $file" | md5sum -c > /dev/null 2>&1 || error
+	vboxmanage extpack install --replace $file
+fi
+
+#DEBHELPER#
