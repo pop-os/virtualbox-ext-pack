@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e
 
-version=4.3.24
-hash=c6b61774e323b70da0d4f5677ef56f1c53990eccef859d3c720d814f98a01f8d
+version=4.3.26
+hash=4e39a6d0da23799a31c3f6a4022b144ef3ddfe30c523e51b21bf7d9ebade62ce
 file=Oracle_VM_VirtualBox_Extension_Pack-$version.vbox-extpack
 
 error ()
@@ -11,13 +11,20 @@ error ()
 	exit 1
 }
 
+# Source debconf library.
+. /usr/share/debconf/confmodule
 
 if [ "$1" = "configure" ] ; then
-	cd /usr/share/virtualbox-ext-pack
-	echo "virtualbox-ext-pack: downloading: http://download.virtualbox.org/virtualbox/$version/$file"
-	wget -q -N http://download.virtualbox.org/virtualbox/$version/$file
-	echo "$hash  $file" | sha256sum -c > /dev/null 2>&1 || error
-	vboxmanage extpack install --replace $file
+        db_get virtualbox-ext-pack/license
+        if [ "$RET" = true ] ; then
+		cd /usr/share/virtualbox-ext-pack
+		echo "virtualbox-ext-pack: downloading: http://download.virtualbox.org/virtualbox/$version/$file"
+		wget -q -N http://download.virtualbox.org/virtualbox/$version/$file
+		echo "$hash  $file" | sha256sum -c > /dev/null 2>&1 || error
+		vboxmanage extpack install --replace $file
+	else
+		exit 1
+	fi
 fi
 
 #DEBHELPER#

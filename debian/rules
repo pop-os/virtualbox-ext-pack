@@ -2,3 +2,7 @@
 
 %:
 	dh  $@
+
+override_dh_clean:
+	debconf-updatepo
+	dh_clean
