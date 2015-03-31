@@ -1,7 +1,7 @@
 Template: virtualbox-ext-pack/license
 Type: boolean
 Default: true
-_Description: Do you want to accept the license?
+_Description: Do you accept the terms of this license?
  VirtualBox Personal Use and Evaluation License (PUEL)
  .
  VirtualBox PUEL terms and conditions

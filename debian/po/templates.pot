@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: virtualbox-ext-pack\n"
 "Report-Msgid-Bugs-To: virtualbox-ext-pack@packages.debian.org\n"
-"POT-Creation-Date: 2015-03-30 18:38+0200\n"
+"POT-Creation-Date: 2015-03-31 10:48-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../templates:1001
-msgid "Do you want to accept the license?"
+msgid "Do you accept the terms of this license?"
 msgstr ""
 
 #. Type: boolean
