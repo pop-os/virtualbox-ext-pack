@@ -9,7 +9,7 @@ Homepage: https://www.virtualbox.org
 
 Package: virtualbox-ext-pack
 Architecture: all
-Depends: virtualbox (>= 4.3) | virtualbox-4.3, wget, ${misc:Depends}
+Depends: virtualbox (>= 5.0) | virtualbox-5.0, wget, ${misc:Depends}
 Description: support for USB 2.0 devices, VirtualBox RDP and PXE boot for Intel cards
  VirtualBox requires an extension pack in order to provide support for RDP,
  as well as USB 2.0 and PXE booting for Intel network cards, etc.
