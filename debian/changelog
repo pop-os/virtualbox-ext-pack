@@ -1,5 +1,5 @@
-virtualbox-ext-pack (5.0.0-1) UNRELEASED; urgency=medium
+virtualbox-ext-pack (5.0.0-1) experimental; urgency=medium
 
   * Initial release (Closes: #793439)
 
- -- Unit 193 <unit193@ubuntu.com>  Fri, 15 May 2015 16:37:53 -0400
+ -- Unit 193 <unit193@ubuntu.com>  Thu, 30 Jul 2015 15:04:24 +0200
