@@ -1,5 +1,6 @@
 virtualbox-ext-pack (5.0.2-1) UNRELEASED; urgency=medium
 
+  * Team upload.
   * New upstream release.
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 14 Aug 2015 15:09:14 +0200
