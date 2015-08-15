@@ -1,7 +1,10 @@
 virtualbox-ext-pack (5.0.2-1) unstable; urgency=medium
 
-  * Team upload.
+  * Add myself to uploaders.
   * New upstream release.
+  * Update VCS fields.
+  * Add a README.Debian file, explaining
+    how to recreate the orig tarball.
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 14 Aug 2015 15:09:14 +0200
 
