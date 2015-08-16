@@ -1,6 +1,10 @@
-virtualbox-ext-pack (5.0.2-2) UNRELEASED; urgency=medium
+virtualbox-ext-pack (5.0.2-2) unstable; urgency=medium
 
+  [ Gianfranco Costamagna ]
   * move README.Debian to README.source
+
+  [ Christian Perrier ]
+  * Make only template synopsis translatable (Closes: #795660)
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Sat, 15 Aug 2015 23:18:26 +0200
 
