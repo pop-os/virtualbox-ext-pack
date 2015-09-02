@@ -1,9 +1,12 @@
 Template: virtualbox-ext-pack/license
 Type: boolean
 Default: true
-#flag:translate:1
-_Description: Do you accept the terms of this license?
- VirtualBox Personal Use and Evaluation License (PUEL)
+#flag:translate:1,2
+_Description: Do you accept the terms of the VirtualBox PUEL license?
+ Oracle Corporation requests VirtualBox users to acknowledge and
+ accept the "VirtualBox Personal Use and Evaluation License" (PUEL). Please
+ read the license below. If you accept this license, the package
+ installation will continue. If you refuse it, it will be interrupted.
  .
  VirtualBox PUEL terms and conditions
  .
