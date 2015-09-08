@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.0.4-2) unstable; urgency=medium
+
+  * Reupload with the _all package, non-free isn't autobuilt.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 08 Sep 2015 21:39:03 +0200
+
 virtualbox-ext-pack (5.0.4-1) unstable; urgency=medium
 
   * New upstream release, update postinst.
