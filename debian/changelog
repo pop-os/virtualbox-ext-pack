@@ -1,3 +1,12 @@
+virtualbox-ext-pack (5.0.4-1) unstable; urgency=medium
+
+  * New upstream release, update postinst.
+
+  [ Christian Perrier, Justin B Rye]
+  * Rephrase a little bit the templates (cfr: #795808)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 08 Sep 2015 20:20:36 +0200
+
 virtualbox-ext-pack (5.0.2-2) unstable; urgency=medium
 
   [ Gianfranco Costamagna ]
