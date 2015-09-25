@@ -1,0 +1,37 @@
+# Danish translation virtualbox-ext-pack.
+# Copyright (C) 2015 virtualbox-ext-pack og nedenstående oversættere.
+# This file is distributed under the same license as the virtualbox-ext-pack package.
+# Joe Hansen (joedalton2@yahoo.dk), 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: virtualbox-ext-pack\n"
+"Report-Msgid-Bugs-To: virtualbox-ext-pack@packages.debian.org\n"
+"POT-Creation-Date: 2015-09-21 06:58+0200\n"
+"PO-Revision-Date: 2015-09-23 17:30+01:00\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish <debian-l10n-danish@lists.debian.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you accept the terms of the VirtualBox PUEL license?"
+msgstr "Accepterer du betingelserne i VirtualBox PUEL-licensen?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Oracle Corporation requests VirtualBox users to acknowledge and accept the "
+"\"VirtualBox Personal Use and Evaluation License\" (PUEL). Please read the "
+"license below. If you accept this license, the package installation will "
+"continue. If you refuse it, it will be interrupted."
+msgstr ""
+"Oracle Corporation kræver at VirtualBox-brugere anerkender og accepterer "
+"»VirtualBox Personal Use and Evaluation License« (PUEL). Læs licensen "
+"nedenfor. Hvis du accepterer licensen, fortsætter pakkeinstallationen. "
+"Hvis du nægter, afbrydes den."

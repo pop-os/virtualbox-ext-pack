@@ -1,27 +1,28 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Czech PO debconf template translation of virtualbox-ext-pack.
+# Copyright (C) 2015 Michal Simunek <michal.simunek@gmail.com>
+# This file is distributed under the same license as the virtualbox-ext-pack package.
+# Michal Simunek <michal.simunek@gmail.com>, 2015.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: virtualbox-ext-pack\n"
+"Project-Id-Version: virtualbox-ext-pack 5.0.2-2\n"
 "Report-Msgid-Bugs-To: virtualbox-ext-pack@packages.debian.org\n"
 "POT-Creation-Date: 2015-09-16 19:11+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-09-04 09:15+0200\n"
+"Last-Translator: Michal Simunek <michal.simunek@gmail.com>\n"
+"Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Type: boolean
 #. Description
 #: ../templates:2001
+#, fuzzy
+#| msgid "Do you accept the terms of this license?"
 msgid "Do you accept the terms of the VirtualBox PUEL license?"
-msgstr ""
+msgstr "Přijímáte licenční podmínky?"
 
 #. Type: boolean
 #. Description
