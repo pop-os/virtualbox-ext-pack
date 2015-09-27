@@ -4,6 +4,7 @@ virtualbox-ext-pack (5.0.4-3) unstable; urgency=medium
   * Initial danish translation (Closes: #799884)
   * Initial italian translation
   * Initial czech translation (Closes: #797995)
+  * Initial german translation (Closes: #800314)
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 16 Sep 2015 19:06:35 +0200
 

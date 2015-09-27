@@ -1,0 +1,42 @@
+# German translation of virtualbox-ext-pack.
+# This file is distributed under the same license as the virtualbox-ext-pack
+# package.
+# Copyright (C) 2015 Unit 193 <unit193@ubuntu.com>,
+#               2015 Gianfranco Costamagna <locutusofborg@debian.org>
+# Copyright (C) of this file 2015 Chris Leick <c.leick@vollbio.de>.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: virtualbox-ext-pack 5.0.2-3\n"
+"Report-Msgid-Bugs-To: virtualbox-ext-pack@packages.debian.org\n"
+"POT-Creation-Date: 2015-09-21 06:58+0200\n"
+"PO-Revision-Date: 2015-09-27 18:45+0200\n"
+"Last-Translator: Chris Leick <c.leick@vollbio.de>\n"
+"Language-Team: German <debian-l10n-german@lists.debian.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you accept the terms of the VirtualBox PUEL license?"
+msgstr "Akzeptieren Sie die Bedingungen der VirtualBox-PUEL-Lizenz?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Oracle Corporation requests VirtualBox users to acknowledge and accept the "
+"\"VirtualBox Personal Use and Evaluation License\" (PUEL). Please read the "
+"license below. If you accept this license, the package installation will "
+"continue. If you refuse it, it will be interrupted."
+msgstr ""
+"Das Unternehmen Oracle verlangt von Virtualbox-Anwendern, dass sie der "
+"»VirtualBox Personal Use and Evaluation License« (PUEL/Virtualbox-Lizenz zum "
+"persönlichen Gebrauch und zum Ausprobieren) zustimmen und sie akzeptieren. "
+"Bitte lesen Sie die nachfolgende Lizenz. Falls Sie dieser Lizenz zustimmen, "
+"wird die Paketinstallation fortfahren. Falls Sie sie ablehnen, wird die "
+"Installation abgebrochen."
