@@ -1,5 +1,6 @@
 virtualbox-ext-pack (5.0.4-3) unstable; urgency=medium
 
+  * Force uninstallation of the extension pack (Closes: #800034)
   * Update templates (Closes: #795808).
   * Initial danish translation (Closes: #799884)
   * Initial italian translation
