@@ -1,0 +1,40 @@
+# Trenslation of virtualbox-ext-pack debconf templates to French
+# Copyright (C) 2015 french l10n team <debian-l10n-french@lists.debian.org>
+# This file is distributed under the same license as the virtualbox-ext-pack package.
+# Julien Patriarca <leatherface@debian.org>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: virtualbox-ext-pack\n"
+"Report-Msgid-Bugs-To: virtualbox-ext-pack@packages.debian.org\n"
+"POT-Creation-Date: 2015-09-21 06:58+0200\n"
+"PO-Revision-Date: 2015-09-21 11:51+0100\n"
+"Last-Translator: Julien Patriarca <leatherface@debian.org>\n"
+"Language-Team: FRENCH <debian-l10n-french@lists.debian.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you accept the terms of the VirtualBox PUEL license?"
+msgstr "Acceptez-vous les termes de la licence PUEL de Virtualbox ?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Oracle Corporation requests VirtualBox users to acknowledge and accept the "
+"\"VirtualBox Personal Use and Evaluation License\" (PUEL). Please read the "
+"license below. If you accept this license, the package installation will "
+"continue. If you refuse it, it will be interrupted."
+msgstr ""
+"Oracle Corporation demande aux utilisateurs de Virtualbox de prendre connaissance et "
+"d'accepter la licence de VirtualBox pour utilisation personnelle et évaluation "
+"(« VirtualBox Personal Use and Evaluation License » PUEL). "
+"Veuillez lire la licence ci-dessous. Si vous acceptez la licence, "
+"l'installation du paquet continuera. Si vous la refusez, elle sera "
+"interrompue."
