@@ -19,7 +19,7 @@ if [ "$1" = "configure" ] ; then
         if [ "$RET" = true ] ; then
 		cd /usr/share/virtualbox-ext-pack
 		echo "virtualbox-ext-pack: downloading: http://download.virtualbox.org/virtualbox/$version/$file"
-		echo "The file will be installed into /usr/share/virtualbox-ext-pack"
+		echo "The file will be downloaded into /usr/share/virtualbox-ext-pack"
 		wget -q -N http://download.virtualbox.org/virtualbox/$version/$file
 		echo "$hash  $file" | sha256sum -c > /dev/null 2>&1 || error
 		vboxmanage extpack install --replace $file
