@@ -1,0 +1,40 @@
+# Translation of virtualbox-ext-pack's debconf messages to European Portuguese
+# Copyright (C) 2015 THE virtualbox-ext-pack'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the virtualbox-ext-pack package.
+#
+# Américo Monteiro <a_monteiro@gmx.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: virtualbox-ext-pack\n"
+"Report-Msgid-Bugs-To: virtualbox-ext-pack@packages.debian.org\n"
+"POT-Creation-Date: 2015-09-21 06:58+0200\n"
+"PO-Revision-Date: 2015-10-04 10:05+0100\n"
+"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
+"Language-Team: Portuguese <traduz@debianpt.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you accept the terms of the VirtualBox PUEL license?"
+msgstr "Aceita os termos da licença PUEL do VirtualBox?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Oracle Corporation requests VirtualBox users to acknowledge and accept the "
+"\"VirtualBox Personal Use and Evaluation License\" (PUEL). Please read the "
+"license below. If you accept this license, the package installation will "
+"continue. If you refuse it, it will be interrupted."
+msgstr ""
+"A Oracle Corporation requer que os utilizadores do VirtualBox conheçam e "
+"aceitem a \"VirtualBox Personal Use and Evaluation License\" (PUEL). Por "
+"favor leia a licença em baixo. Se aceitar esta licença, a instalação do "
+"pacote irá continuar. Se a recusar, será interrompida."
+
