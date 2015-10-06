@@ -1,0 +1,42 @@
+# Dutch translation of virtualbox-ext-pack debconf templates.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the virtualbox-ext-pack package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Frans Spiesschaert <Frans.Spiesschaert@yucom.be>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: virtualbox-ext-pack\n"
+"Report-Msgid-Bugs-To: virtualbox-ext-pack@packages.debian.org\n"
+"POT-Creation-Date: 2015-09-21 06:58+0200\n"
+"PO-Revision-Date: 2015-09-21 15:38+0200\n"
+"Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
+"Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you accept the terms of the VirtualBox PUEL license?"
+msgstr "Aanvaardt u de bepalingen van de PUEL-licentie van VirtualBox?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Oracle Corporation requests VirtualBox users to acknowledge and accept the "
+"\"VirtualBox Personal Use and Evaluation License\" (PUEL). Please read the "
+"license below. If you accept this license, the package installation will "
+"continue. If you refuse it, it will be interrupted."
+msgstr ""
+"Het bedrijf Oracle Corporation vereist dat gebruikers van VirtualBox kennis "
+"nemen van en akkoord gaan met de \"VirtualBox Personal Use and Evaluation "
+"License\" (PUEL - Licentie voor het persoonlijk gebruik en ter evaluatie van "
+"VirtualBox). Gelieve de onderstaande licentie te lezen. Indien u ze "
+"aanvaardt, wordt het installeren van het pakket voortgezet. Indien u ze "
+"verwerpt, wordt de installatie afgebroken."

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: virtualbox-ext-pack 5.0.2-2\n"
+"Project-Id-Version: virtualbox-ext-pack 5.0.2-3\n"
 "Report-Msgid-Bugs-To: virtualbox-ext-pack@packages.debian.org\n"
-"POT-Creation-Date: 2015-09-16 19:11+0200\n"
-"PO-Revision-Date: 2015-09-04 09:15+0200\n"
+"POT-Creation-Date: 2015-09-21 06:58+0200\n"
+"PO-Revision-Date: 2015-10-06 09:15+0200\n"
 "Last-Translator: Michal Simunek <michal.simunek@gmail.com>\n"
 "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
 "Language: cs\n"
@@ -19,10 +19,8 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../templates:2001
-#, fuzzy
-#| msgid "Do you accept the terms of this license?"
 msgid "Do you accept the terms of the VirtualBox PUEL license?"
-msgstr "Přijímáte licenční podmínky?"
+msgstr "Přijímáte podmínky licence VirtualBox PUEL?"
 
 #. Type: boolean
 #. Description
@@ -33,3 +31,7 @@ msgid ""
 "license below. If you accept this license, the package installation will "
 "continue. If you refuse it, it will be interrupted."
 msgstr ""
+"Oracle Corporation požaduje po uživatelích VirtualBoxu, aby vzali na vědomí "
+"a přijali podmínky licence \"VirtualBox Personal Use and Evaluation License\" "
+"(PUEL). Níže si prosím tuto licenci přečtěte. Pokud podmínky licence přijmete, "
+"instalace balíčku bude pokračovat. Pokud je odmítnete, instalace se přeruší."

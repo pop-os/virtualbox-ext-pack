@@ -2,6 +2,8 @@ virtualbox-ext-pack (5.0.6-2) UNRELEASED; urgency=medium
 
   * Initial portuguese translation (Closes: #800839)
   * Initial russian translation (Closes: #801047)
+  * Initial dutch translation (Closes: #801130)
+  * Update czech translation (Closes: #801115)
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Sun, 04 Oct 2015 23:10:06 +0200
 
