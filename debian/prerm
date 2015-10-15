@@ -2,7 +2,7 @@
 set -e
 
 if [ -c /dev/vboxdrv ]; then
-        vboxmanage extpack uninstall --force "Oracle VM VirtualBox Extension Pack"
+        vboxmanage extpack uninstall "Oracle VM VirtualBox Extension Pack"
         vboxmanage extpack cleanup
 else
         echo "you seem to be not running the vboxdrv kernel module, the extpack uninstall will be forced."
