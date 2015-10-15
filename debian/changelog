@@ -1,3 +1,10 @@
+virtualbox-ext-pack (5.0.6-3) unstable; urgency=medium
+
+  * Force extpack uninstall (Closes: #800034).
+    - this is an issue e.g. in chroots or live builds.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 15 Oct 2015 15:29:11 +0200
+
 virtualbox-ext-pack (5.0.6-2) unstable; urgency=medium
 
   * Initial portuguese translation (Closes: #800839)
