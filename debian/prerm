@@ -1,13 +1,8 @@
 #!/bin/sh
 set -e
 
-if [ -c /dev/vboxdrv ]; then
-        vboxmanage extpack uninstall "Oracle VM VirtualBox Extension Pack"
-        vboxmanage extpack cleanup
-else
-        echo "you seem to be not running the vboxdrv kernel module, the extpack uninstall will be forced."
-fi
-
+vboxmanage extpack uninstall "Oracle VM VirtualBox Extension Pack"
+vboxmanage extpack cleanup
 rm /usr/share/virtualbox-ext-pack/*.vbox-extpack 1>/dev/null 2>&1 # Maybe we should specify the file like in the postinst?
 
 #DEBHELPER#

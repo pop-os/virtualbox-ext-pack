@@ -1,3 +1,10 @@
+virtualbox-ext-pack (5.0.6-5) unstable; urgency=medium
+
+  * Drop uninstall hack, live systems are not intended to work
+    correctly with the uninstall system.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 16 Oct 2015 09:49:52 +0200
+
 virtualbox-ext-pack (5.0.6-4) unstable; urgency=medium
 
   * Disable --force, it doesn't exist in any implementation.
