@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.0.8-1) unstable; urgency=medium
+
+  * New upstream release, update postinst.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 22 Oct 2015 12:16:50 +0200
+
 virtualbox-ext-pack (5.0.6-5) unstable; urgency=medium
 
   * Drop uninstall hack, live systems are not intended to work
