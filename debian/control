@@ -12,6 +12,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-virtualbox/virtualbox-ext-p
 
 Package: virtualbox-ext-pack
 Architecture: all
+Pre-Depends: debconf
 Depends: virtualbox (>= 5.0) | virtualbox-5.0, wget, ${misc:Depends}
 Description: extra capabilities for VirtualBox, downloader.
  VirtualBox requires an extension pack to provide support for Remote

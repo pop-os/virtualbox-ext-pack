@@ -1,0 +1,62 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+errmsg()
+{
+    echo >&2 ''
+    echo >&2 "$@"
+    echo >&2 "try 'dpkg-reconfigure debconf' to select a frontend other than noninteractive"
+    echo >&2 ''
+}
+
+db_get virtualbox-ext-pack/license
+if [ "$RET" = "true" ]; then
+    echo "License has already been accepted." >&2
+    exit 0
+else
+    # show license again
+    db_fset virtualbox-ext-pack/license seen false
+fi
+
+# facilitate backup capability per debconf-devel(7)
+STATE=1
+while true; do
+    case "$STATE" in
+    0)  # ensure going back from license presentment is harmless
+        STATE=1
+        continue
+        ;;
+    1)  # present license
+        if ! db_get virtualbox-ext-pack/license ; then
+            errmsg "Could not display license."
+            exit 1
+        fi
+        if [ "$RET" = "true" ]; then
+            # license accepted
+            exit 0
+        fi
+        ;;
+    2)  # user has confirmed declining license
+        echo "User did not accept the license." >&2
+        exit 1
+        ;;
+    *)  # unknown state
+        echo "State unknown: $STATE" >&2
+        exit 2
+        ;;
+    esac
+    if db_go; then
+        STATE=$(($STATE + 1))
+    else
+        STATE=$(($STATE - 1))
+    fi
+done
+
+# proper exit (0 or 1) above
+errmsg "License could not be presented / was not accepted."
+exit 2
