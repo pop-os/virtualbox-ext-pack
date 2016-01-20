@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.0.14-1) unstable; urgency=medium
+
+  * New upstream release, update postinst/rules.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 20 Jan 2016 10:11:12 +0100
+
 virtualbox-ext-pack (5.0.12-2) unstable; urgency=medium
 
   * d/prerm: Ignore failures on file removal if nonexistent (LP: #1527860).
