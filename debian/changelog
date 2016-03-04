@@ -1,6 +1,7 @@
 virtualbox-ext-pack (5.0.16-1) unstable; urgency=medium
 
   * New upstream release, update postinst/rules.
+  * Update std-version and watch file version.
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 04 Mar 2016 22:18:04 +0100
 
