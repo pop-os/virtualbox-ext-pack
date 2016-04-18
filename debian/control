@@ -5,10 +5,10 @@ Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org
 Uploaders: Unit 193 <unit193@ubuntu.com>,
            Gianfranco Costamagna <locutusofborg@debian.org>
 Build-Depends: debhelper (>= 9), po-debconf
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Homepage: https://www.virtualbox.org
-Vcs-Git: git://anonscm.debian.org/pkg-virtualbox/virtualbox-ext-pack.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-virtualbox/virtualbox-ext-pack.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-virtualbox/virtualbox-ext-pack.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-virtualbox/virtualbox-ext-pack.git
 
 Package: virtualbox-ext-pack
 Architecture: all

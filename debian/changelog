@@ -1,3 +1,11 @@
+virtualbox-ext-pack (5.0.18-1) unstable; urgency=medium
+
+  * New upstream release, update postinst/rules.
+  * Update std-version to 3.9.8
+  * Fix insecure VCS fields.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 18 Apr 2016 23:34:40 +0200
+
 virtualbox-ext-pack (5.0.16-1) unstable; urgency=medium
 
   * New upstream release, update postinst/rules.
