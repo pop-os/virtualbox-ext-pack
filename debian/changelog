@@ -3,6 +3,9 @@ virtualbox-ext-pack (5.0.20-2) UNRELEASED; urgency=medium
   [ Jonatan Nyberg ]
   * Add Swedish translation (Closes: #823656)
 
+  [ Gianfranco Costamagna ]
+  * Alternative depend on virtualbox-5.1 too.
+
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 09 May 2016 11:07:11 +0200
 
 virtualbox-ext-pack (5.0.20-1) unstable; urgency=medium
