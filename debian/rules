@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-VERSION=5.0.22
+VERSION=5.0.24
 %:
 	dh  $@
 
