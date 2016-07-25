@@ -1,3 +1,11 @@
+virtualbox-ext-pack (5.1.6-2) unstable; urgency=low
+
+  [ Unit193]
+  * Move the package to contrib, because it is just
+    a downloader of a non-free package.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 16 Sep 2016 17:45:24 +0200
+
 virtualbox-ext-pack (5.1.6-1) unstable; urgency=low
 
   * New upstream release, update postinst/rules
