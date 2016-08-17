@@ -1,4 +1,4 @@
-virtualbox-ext-pack (5.1.2-1) experimental; urgency=medium
+virtualbox-ext-pack (5.1.4-1) experimental; urgency=medium
 
   * New upstream release, update postinst/rules
 
@@ -6,7 +6,7 @@ virtualbox-ext-pack (5.1.2-1) experimental; urgency=medium
   * Move the package to contrib, because it is just
     a downloader of a non-free package.
 
- -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 12 Jul 2016 21:58:34 +0200
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 17 Aug 2016 09:59:40 +0200
 
 virtualbox-ext-pack (5.0.24-1) unstable; urgency=medium
 
