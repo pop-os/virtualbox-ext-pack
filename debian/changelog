@@ -1,4 +1,4 @@
-virtualbox-ext-pack (5.1.4-1) experimental; urgency=medium
+virtualbox-ext-pack (5.1.4-1) unstable; urgency=low
 
   * New upstream release, update postinst/rules
 
