@@ -1,4 +1,4 @@
-virtualbox-ext-pack (5.1.4-1) unstable; urgency=low
+virtualbox-ext-pack (5.1.4+repack-1) unstable; urgency=low
 
   * New upstream release, update postinst/rules
   * Embed the extpack file, without downloading it anymore
