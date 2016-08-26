@@ -1,10 +1,10 @@
 virtualbox-ext-pack (5.1.4-1) unstable; urgency=low
 
   * New upstream release, update postinst/rules
-
-  [ Unit193]
-  * Move the package to contrib, because it is just
-    a downloader of a non-free package.
+  * Embed the extpack file, without downloading it anymore
+    (the same happens in guest-additions-iso package)
+  * Update copyright and use a get-orig-source script to create
+    the orig tarball
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 17 Aug 2016 09:59:40 +0200
 
