@@ -6,7 +6,7 @@ set -e
 
 if [ "$1" = "configure" ] ; then
 	cd /usr/share/virtualbox-ext-pack
-	vboxmanage extpack install --replace *.vbox-extpack
+	vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack.vbox-extpack
 fi
 
 #DEBHELPER#
