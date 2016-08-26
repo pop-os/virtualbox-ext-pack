@@ -8,4 +8,4 @@ override_dh_clean:
 	dh_clean
 
 override_dh_auto_install:
-	cp Oracle_VM_VirtualBox_Extension_Pack-*.vbox-extpack debian/virtualbox-guest-additions-iso/usr/share/virtualbox-ext-pack/Oracle_VM_VirtualBox_Extension_Pack.vbox-extpack
+	cp Oracle_VM_VirtualBox_Extension_Pack-*.vbox-extpack debian/virtualbox-ext-pack/usr/share/virtualbox-ext-pack/Oracle_VM_VirtualBox_Extension_Pack.vbox-extpack
