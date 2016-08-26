@@ -43,7 +43,7 @@ trap 'rm -r $TMP' EXIT
 mkdir $TMP/${PACKAGE_NAME}-$UPSTREAM_VERSION
 mv $ORIG_TARBALL $TMP/${PACKAGE_NAME}-$UPSTREAM_VERSION/
 cd $TMP
-tar czf ${PACKAGE_NAME}_$UPSTREAM_VERSION.orig.tar.gz ${PACKAGE_NAME}-$UPSTREAM_VERSION
-mv ${PACKAGE_NAME}_$UPSTREAM_VERSION.orig.tar.gz $ORGDIR/../
+tar cJf ${PACKAGE_NAME}_$UPSTREAM_VERSION.orig.tar.xz ${PACKAGE_NAME}-$UPSTREAM_VERSION
+mv ${PACKAGE_NAME}_$UPSTREAM_VERSION.orig.tar.xz $ORGDIR/../
 cd $ORGDIR
-echo "Done, now you can run gbp import-orig ../${PACKAGE_NAME}_$UPSTREAM_VERSION.orig.tar.gz"
+echo "Done, now you can run gbp import-orig ../${PACKAGE_NAME}_$UPSTREAM_VERSION.orig.tar.xz"
