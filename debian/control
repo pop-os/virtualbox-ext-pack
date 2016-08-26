@@ -1,5 +1,5 @@
 Source: virtualbox-ext-pack
-Section: contrib/misc
+Section: non-free/misc
 Priority: extra
 Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Uploaders: Unit 193 <unit193@ubuntu.com>,
