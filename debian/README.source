@@ -1,0 +1,4 @@
+This package has nothing inside the tarball.
+
+In order to create a tarball you can set the VERSION variable in rules file
+and call debian/rules tarball target.

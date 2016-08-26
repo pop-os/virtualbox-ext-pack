@@ -1,5 +1,6 @@
 #!/usr/bin/make -f
 
+VERSION=5.1.4
 %:
 	dh  $@
 
@@ -7,5 +8,8 @@ override_dh_clean:
 	debconf-updatepo
 	dh_clean
 
-override_dh_auto_install:
-	cp Oracle_VM_VirtualBox_Extension_Pack-*.vbox-extpack debian/virtualbox-ext-pack/usr/share/virtualbox-ext-pack/Oracle_VM_VirtualBox_Extension_Pack.vbox-extpack
+tarball:
+	mkdir virtualbox-ext-pack_$(VERSION)
+	tar cJvf virtualbox-ext-pack_$(VERSION).orig.tar.xz virtualbox-ext-pack_$(VERSION)
+	rm -rf virtualbox-ext-pack_$(VERSION)
+	mv virtualbox-ext-pack_$(VERSION).orig.tar.xz ..
