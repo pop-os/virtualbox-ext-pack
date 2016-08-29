@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.1.4+repack1-2) unstable; urgency=medium
+
+  * Depend on virtualbox-5.1 only
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 29 Aug 2016 08:27:39 +0200
+
 virtualbox-ext-pack (5.1.4+repack1-1) unstable; urgency=low
 
   * Revert 5.1.4-1 upload, the §2 part of the PUEL is
