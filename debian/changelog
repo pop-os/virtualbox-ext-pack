@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.1.10-1) unstable; urgency=medium
+
+  * New upstream release, update postinst/rules
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 22 Nov 2016 13:06:13 +0100
+
 virtualbox-ext-pack (5.1.8-1) unstable; urgency=medium
 
   * New upstream release, update postinst/rules
