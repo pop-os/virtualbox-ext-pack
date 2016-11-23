@@ -2,7 +2,7 @@
 set -e
 
 version=5.1.10
-hash=82c6ae207bb8cc9d6fd6db09d99825d0ecf0473a85a5ca98a2f1a0d06e42d6f3
+hash=3982657fd4853bcbc79b9162e618545a479b65aca08e9ced43a904aeeba3ffa5
 file=Oracle_VM_VirtualBox_Extension_Pack-$version.vbox-extpack
 
 error ()
