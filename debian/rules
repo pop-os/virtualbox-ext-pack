@@ -12,7 +12,7 @@ VIRTUALBOX_VERSION=$(shell dpkg-query --show --showformat='$${version}' virtualb
 
 override_dh_gencontrol:
 	dh_gencontrol -- \
-		-Vvirtualbox:Version=$(VIRTUALBOX_VERSION) -Vvirtualbox:nextVersion=$(VIRTUALBOX_VERSION)z
+		-Vvirtualbox:Version=$(VIRTUALBOX_VERSION) -Vvirtualbox:nextVersion=$(VIRTUALBOX_VERSION)-dfsg-z
 
 tarball:
 	mkdir virtualbox-ext-pack_$(VERSION)

@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.1.10-4) unstable; urgency=medium
+
+  * Fix upper bound
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 06 Dec 2016 23:29:19 +0100
+
 virtualbox-ext-pack (5.1.10-3) unstable; urgency=medium
 
   * Enforce virtualbox runtime dependency
