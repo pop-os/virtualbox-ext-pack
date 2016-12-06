@@ -7,7 +7,7 @@ file=Oracle_VM_VirtualBox_Extension_Pack-$version.vbox-extpack
 
 error ()
 {
-	echo "Hash mismatch $file"
+	echo "Hash mismatch $file: expected $hash"
 	exit 1
 }
 
