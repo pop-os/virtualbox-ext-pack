@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Uploaders: Unit 193 <unit193@ubuntu.com>,
            Gianfranco Costamagna <locutusofborg@debian.org>
-Build-Depends: debhelper (>= 9), po-debconf, virtualbox
+Build-Depends: debhelper (>= 9), po-debconf
 Standards-Version: 3.9.8
 Homepage: https://www.virtualbox.org
 Vcs-Git: https://anonscm.debian.org/git/pkg-virtualbox/virtualbox-ext-pack.git

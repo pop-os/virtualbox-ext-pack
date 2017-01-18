@@ -8,11 +8,12 @@ override_dh_clean:
 	debconf-updatepo
 	dh_clean
 
-VIRTUALBOX_VERSION=$(shell dpkg-query --show --showformat='$${version}' virtualbox | cut -f1 -d "-")
+EXT_PACK_VERSION=$(shell dpkg-parsechangelog -Sversion | cut -d - -f 1)
+#VIRTUALBOX_VERSION=$(shell dpkg-query --show --showformat='$${version}' virtualbox | cut -f1 -d "-")
 
 override_dh_gencontrol:
 	dh_gencontrol -- \
-		-Vvirtualbox:Version=$(VIRTUALBOX_VERSION) -Vvirtualbox:nextVersion=$(VIRTUALBOX_VERSION)-dfsg-z
+		-Vvirtualbox:Version=$(EXT_PACK_VERSION)-dfsg-1 -Vvirtualbox:nextVersion=$(EXT_PACK_VERSION)-dfsg-z
 
 tarball:
 	mkdir virtualbox-ext-pack_$(VERSION)

@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.1.14-2) unstable; urgency=medium
+
+  * Use ext-pack changelog to compute virtualbox version
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 18 Jan 2017 07:59:53 +0100
+
 virtualbox-ext-pack (5.1.14-1) unstable; urgency=medium
 
   * New upstream release, update postinst/rules.
