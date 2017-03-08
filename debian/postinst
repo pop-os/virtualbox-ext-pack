@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e
 
-version=5.1.14
-hash=baddb7cc49224ecc1147f82d77fce2685ac39941ac9b0aac83c270dd6570ea85
+version=5.1.16
+hash=a838711616bf015be192c99b2282731321d062ea061a51bd78676ed47b1fc709
 file=Oracle_VM_VirtualBox_Extension_Pack-$version.vbox-extpack
 
 error ()
