@@ -10,13 +10,13 @@ msgstr ""
 "POT-Creation-Date: 2015-09-16 19:11+0200\n"
 "PO-Revision-Date: 2017-02-17 09:01+0100\n"
 "Last-Translator: Jonatan Nyberg <jonatan@autistici.org>\n"
+"Language-Team: \n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.11\n"
-"Language-Team: \n"
 
 #. Type: boolean
 #. Description
@@ -27,5 +27,13 @@ msgstr "Accepterar du villkoren för VirtualBox PUEL licensen?"
 #. Type: boolean
 #. Description
 #: ../templates:2001
-msgid "Oracle Corporation requests VirtualBox users to acknowledge and accept the \"VirtualBox Personal Use and Evaluation License\" (PUEL). Please read the license below. If you accept this license, the package installation will continue. If you refuse it, it will be interrupted."
-msgstr "Oracle begär VirtualBox-användare att erkänna och acceptera \"VirtualBox Personal Use and Evaluation License\" (PUEL). Vänligen läs licensen nedan. Om du accepterar den här licensen, kommer paket-installationen fortsätta. Om du vägrar det, kommer den avbrytas."
+msgid ""
+"Oracle Corporation requests VirtualBox users to acknowledge and accept the "
+"\"VirtualBox Personal Use and Evaluation License\" (PUEL). Please read the "
+"license below. If you accept this license, the package installation will "
+"continue. If you refuse it, it will be interrupted."
+msgstr ""
+"Oracle begär VirtualBox-användare att erkänna och acceptera \"VirtualBox "
+"Personal Use and Evaluation License\" (PUEL). Vänligen läs licensen nedan. "
+"Om du accepterar den här licensen, kommer paket-installationen fortsätta. Om "
+"du vägrar det, kommer den avbrytas."
