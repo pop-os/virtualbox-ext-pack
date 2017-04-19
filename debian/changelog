@@ -1,6 +1,7 @@
 virtualbox-ext-pack (5.1.20-2) unstable; urgency=medium
 
-  * Add accept-license keyword
+  * Add accept-license keyword (Closes: #860744)
+    - Thanks Erwan David for the bug report!
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 19 Apr 2017 19:13:11 +0200
 
