@@ -4,7 +4,7 @@ set -e
 version=5.1.20
 hash=51e85e3792a5a435d88368a52a363321acdd913f4fb3c55cd623911d447ad148
 file=Oracle_VM_VirtualBox_Extension_Pack-$version.vbox-extpack
-
+accept_license=715c7246dc0f779ceab39446812362b2f9bf64a55ed5d3a905f053cfab36da9e
 error ()
 {
 	echo "Hash mismatch $file: expected $hash"
@@ -20,7 +20,7 @@ if [ "$1" = "configure" ] ; then
 	echo "The file will be downloaded into /usr/share/virtualbox-ext-pack"
 	wget -q -N http://download.virtualbox.org/virtualbox/$version/$file
 	echo "$hash  $file" | sha256sum -c > /dev/null 2>&1 || error
-	vboxmanage extpack install --replace $file
+	vboxmanage extpack install --replace --accept-license=$accept_license $file
 fi
 
 #DEBHELPER#
