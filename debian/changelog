@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.1.22-1) unstable; urgency=medium
+
+  * New upstream release, update postinst/rules.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sat, 29 Apr 2017 10:14:17 +0200
+
 virtualbox-ext-pack (5.1.20-2) unstable; urgency=medium
 
   * Add accept-license keyword (Closes: #860744)

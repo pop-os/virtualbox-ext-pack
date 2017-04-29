@@ -3,7 +3,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Files: *
 Copyright:
 	2015 Unit 193 <unit193@ubuntu.com>
-	2015-2016 Gianfranco Costamagna <locutusofborg@debian.org>
+	2015-2017 Gianfranco Costamagna <locutusofborg@debian.org>
 Comment: the downloaded package is released with a PUEL license.
 	https://www.virtualbox.org/wiki/VirtualBox_PUEL
 License: BSD-3-clause

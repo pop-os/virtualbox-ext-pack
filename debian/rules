@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-VERSION=5.1.20
+VERSION=5.1.22
 %:
 	dh  $@
 
@@ -13,7 +13,7 @@ EXT_PACK_VERSION=$(shell dpkg-parsechangelog -Sversion | cut -d - -f 1)
 
 override_dh_gencontrol:
 	dh_gencontrol -- \
-		-Vvirtualbox:Version=$(EXT_PACK_VERSION)-dfsg-1 -Vvirtualbox:nextVersion=$(EXT_PACK_VERSION)-dfsg-z
+		-Vvirtualbox:Version=$(EXT_PACK_VERSION)-dfsg-0~ -Vvirtualbox:nextVersion=$(EXT_PACK_VERSION)-dfsg-z
 
 tarball:
 	mkdir virtualbox-ext-pack_$(VERSION)
