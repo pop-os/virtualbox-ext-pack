@@ -1,5 +1,6 @@
 virtualbox-ext-pack (5.1.22-2) unstable; urgency=medium
 
+  [ Mattia Rizzolo ]
   * Add testsuite for the package.
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Sat, 29 Apr 2017 14:19:10 +0200
