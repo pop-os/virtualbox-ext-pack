@@ -1,6 +1,8 @@
 #!/usr/bin/make -f
 
+include /usr/share/dpkg/default.mk
 VERSION=5.1.22
+
 %:
 	dh  $@
 
@@ -8,12 +10,11 @@ override_dh_clean:
 	debconf-updatepo
 	dh_clean
 
-EXT_PACK_VERSION=$(shell dpkg-parsechangelog -Sversion | cut -d - -f 1)
 #VIRTUALBOX_VERSION=$(shell dpkg-query --show --showformat='$${version}' virtualbox | cut -f1 -d "-")
 
 override_dh_gencontrol:
 	dh_gencontrol -- \
-		-Vvirtualbox:Version=$(EXT_PACK_VERSION)-dfsg-0~ -Vvirtualbox:nextVersion=$(EXT_PACK_VERSION)-dfsg-z
+		-Vvirtualbox:Version=$(DEB_VERSION_UPSTREAM)-dfsg-0~ -Vvirtualbox:nextVersion=$(EXT_PACK_VERSION)-dfsg-z
 
 tarball:
 	mkdir virtualbox-ext-pack_$(VERSION)
