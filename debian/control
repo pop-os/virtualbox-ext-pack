@@ -2,8 +2,9 @@ Source: virtualbox-ext-pack
 Section: contrib/misc
 Priority: optional
 Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
-Uploaders: Unit 193 <unit193@ubuntu.com>,
-           Gianfranco Costamagna <locutusofborg@debian.org>
+Uploaders:
+ Gianfranco Costamagna <locutusofborg@debian.org>,
+ Unit 193 <unit193@ubuntu.com>
 Build-Depends: debhelper (>= 9), po-debconf
 Standards-Version: 4.0.0
 Homepage: https://www.virtualbox.org
@@ -13,7 +14,11 @@ Vcs-Browser: https://anonscm.debian.org/cgit/pkg-virtualbox/virtualbox-ext-pack.
 Package: virtualbox-ext-pack
 Architecture: all
 Pre-Depends: debconf
-Depends: virtualbox (>= ${virtualbox:Version}) | virtualbox-5.1, virtualbox (<< ${virtualbox:nextVersion}) | virtualbox-5.1, wget, ${misc:Depends}
+Depends:
+ virtualbox (<< ${virtualbox:nextVersion}) | virtualbox-5.1,
+ virtualbox (>= ${virtualbox:Version}) | virtualbox-5.1,
+ wget,
+ ${misc:Depends}
 Description: extra capabilities for VirtualBox, downloader.
  VirtualBox requires an extension pack to provide support for Remote
  Desktop Protocol, USB 2.0, PXE booting for Intel network cards, etc.
