@@ -1,3 +1,19 @@
+virtualbox-ext-pack (5.1.24-1) unstable; urgency=medium
+
+  [ Unit 193 ]
+  * d/control: Mark Priority: optional.
+  * d/rules: Rather than using dpkg-parsechangelog, use DEB_VERSION_UPSTREAM.
+  * d/copyright: Update years.
+  * Bump Standards-Version to 4.0.0.
+  * Run wrap-and-sort -s.
+  * d/compat, d/control: Use debhelper compat 10.
+
+  [ Gianfranco Costamagna ]
+  * New upstream version 5.1.24
+  * Update postinst/rules
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 18 Jul 2017 15:16:35 +0200
+
 virtualbox-ext-pack (5.1.22-2) unstable; urgency=medium
 
   [ Mattia Rizzolo ]
