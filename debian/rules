@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 include /usr/share/dpkg/default.mk
-VERSION=5.1.26
+VERSION=5.1.28
 
 %:
 	dh  $@
