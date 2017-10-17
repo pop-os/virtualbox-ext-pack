@@ -1,16 +1,18 @@
 #!/usr/bin/make -f
 
 include /usr/share/dpkg/default.mk
-VERSION=5.1.30
+VERSION ?= $(DEB_VERSION_UPSTREAM)
 
 %:
 	dh  $@
 
 override_dh_clean:
 	debconf-updatepo
-	dh_clean
+	dh_clean debian/postinst
 
-#VIRTUALBOX_VERSION=$(shell dpkg-query --show --showformat='$${version}' virtualbox | cut -f1 -d "-")
+override_dh_installdeb:
+	cat debian/postinst.in | sed 's/#VERSION#/$(DEB_VERSION_UPSTREAM)/g' > debian/postinst
+	dh_installdeb
 
 override_dh_gencontrol:
 	dh_gencontrol -- \

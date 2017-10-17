@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-version=5.1.30
+version=#VERSION#
 hash=2da095e32f85fe5a1fe943158e079bd5aecb2724691c4038bd619ddee967b288
 file=Oracle_VM_VirtualBox_Extension_Pack-$version.vbox-extpack
 accept_license=b674970f720eb020ad18926a9268607089cc1703908696d24a04aa870f34c8e8
