@@ -11,7 +11,7 @@ override_dh_clean:
 	dh_clean debian/postinst
 
 override_dh_installdeb:
-	sed 's/#VERSION#/$(DEB_VERSION_UPSTREAM)/g' < debian/postinst.in > debian/postinst
+	sed 's/#VERSION#/$(DEB_VERSION_UPSTREAM)/g' debian/postinst.in > debian/postinst
 	dh_installdeb
 
 override_dh_gencontrol:
