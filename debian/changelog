@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.2.0-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 18 Oct 2017 19:36:51 +0200
+
 virtualbox-ext-pack (5.1.30-2) unstable; urgency=medium
 
   [ Gianfranco Costamagna ]
