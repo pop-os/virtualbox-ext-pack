@@ -21,7 +21,7 @@ if [ "$1" = "configure" ] ; then
 	echo "The file will be downloaded into /usr/share/virtualbox-ext-pack"
 	wget -q -N http://download.virtualbox.org/virtualbox/$version/$file
 	echo "$hash  $file" | sha256sum -c > /dev/null 2>&1 || error
-	vboxmanage extpack install --replace --accept-license=$accept_license $file
+	vboxmanage extpack install --replace --accept-license=$accept_license $file || error
 fi
 
 #DEBHELPER#
