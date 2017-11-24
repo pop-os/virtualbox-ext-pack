@@ -1,6 +1,6 @@
 virtualbox-ext-pack (5.2.2-1) unstable; urgency=medium
 
-  * New upstream release.
+  * New upstream release, update rules, postinsts, accept-license
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 24 Nov 2017 19:16:44 +0100
 
