@@ -4,7 +4,7 @@ set -e
 version=#VERSION#
 hash=9328548ca8cbc526232c0631cb5a17618c771b07665b362c1e3d89a2425bf799
 file=Oracle_VM_VirtualBox_Extension_Pack-$version.vbox-extpack
-accept-license=56be48f923303c8cababb0bb4c478284b688ed23f16d775d729b89a2e8e5f9eb
+accept_license=56be48f923303c8cababb0bb4c478284b688ed23f16d775d729b89a2e8e5f9eb
 
 error ()
 {

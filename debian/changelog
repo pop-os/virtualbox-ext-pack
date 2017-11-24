@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.2.2-2) unstable; urgency=medium
+
+  * Fixup previous typo
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 24 Nov 2017 20:22:45 +0100
+
 virtualbox-ext-pack (5.2.2-1) unstable; urgency=medium
 
   * New upstream release, update rules, postinsts, accept-license
