@@ -1,3 +1,10 @@
+virtualbox-ext-pack (5.2.6-1) unstable; urgency=medium
+
+  * New upstream release, postinst.
+  * Bump std-version to 4.1.2, no changes required
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 16 Jan 2018 22:20:58 +0100
+
 virtualbox-ext-pack (5.2.4-1) unstable; urgency=medium
 
   * New upstream release, postinst.

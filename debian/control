@@ -8,7 +8,7 @@ Uploaders:
 Build-Depends:
  debhelper (>= 10),
  po-debconf
-Standards-Version: 4.1.2
+Standards-Version: 4.1.3
 Homepage: https://www.virtualbox.org
 Vcs-Git: https://anonscm.debian.org/git/pkg-virtualbox/virtualbox-ext-pack.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-virtualbox/virtualbox-ext-pack.git
