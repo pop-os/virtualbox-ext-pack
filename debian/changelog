@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.2.8-2) unstable; urgency=medium
+
+  * Switch to salsa.debian.org VCS fields.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sun, 15 Apr 2018 19:35:02 +0200
+
 virtualbox-ext-pack (5.2.8-1) unstable; urgency=medium
 
   * New upstream release, postinst.
