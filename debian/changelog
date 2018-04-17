@@ -1,6 +1,6 @@
-virtualbox-ext-pack (5.2.10-1) UNRELEASED; urgency=medium
+virtualbox-ext-pack (5.2.10-1) unstable; urgency=medium
 
-  * 
+  * New upstream release, update postinst.
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 18 Apr 2018 00:39:38 +0200
 
