@@ -1,7 +1,7 @@
 Source: virtualbox-ext-pack
 Section: contrib/misc
 Priority: optional
-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Maintainer: Debian Virtualbox Team  <team+debian-virtualbox@tracker.debian.org>
 Uploaders:
  Gianfranco Costamagna <locutusofborg@debian.org>,
  Unit 193 <unit193@ubuntu.com>
@@ -10,7 +10,7 @@ Build-Depends:
  po-debconf
 Standards-Version: 4.1.4
 Homepage: https://www.virtualbox.org
-Vcs-Browser: https://salsa.debian.org/pkg-virtualbox-team/virtualbox-ext-pack.git
+Vcs-Browser: https://salsa.debian.org/pkg-virtualbox-team/virtualbox-ext-pack
 Vcs-Git: https://salsa.debian.org/pkg-virtualbox-team/virtualbox-ext-pack.git
 
 Package: virtualbox-ext-pack
