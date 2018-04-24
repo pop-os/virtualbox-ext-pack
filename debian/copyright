@@ -1,4 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: VirtualBox Ext Pack
+Upstream-Contact: Oracle Corporation
+                  https://www.oracle.com/
+Source: https://www.virtualbox.org/
+Disclaimer: This package is formally not part of the Debian GNU/Linux
+            distribution, because it has not the source code distributed.
 
 Files: *
 Copyright:

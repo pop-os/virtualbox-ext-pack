@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.2.10-3) unstable; urgency=high
+
+  * Update copyright file to fix lintian warning.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 24 Apr 2018 12:11:40 +0200
+
 virtualbox-ext-pack (5.2.10-2) unstable; urgency=medium
 
   * Update maintainer field to the new dispatcher (Closes: #895971)
