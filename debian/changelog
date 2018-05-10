@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.2.12-1) unstable; urgency=medium
+
+  * New upstream release, update postinst.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 10 May 2018 14:52:27 +0200
+
 virtualbox-ext-pack (5.2.10-4) unstable; urgency=high
 
   * Fix hash due to upstream change. (Closes: #897052, LP: #1767533,
