@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.2.12-2) unstable; urgency=medium
+
+  * Use directly /usr/bin/wget to avoid firejail issues (Closes: #898409)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 11 May 2018 12:12:52 +0200
+
 virtualbox-ext-pack (5.2.12-1) unstable; urgency=medium
 
   * New upstream release, update postinst.
