@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.2.14-1) unstable; urgency=medium
+
+  * New upstream release, update postinst.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 02 Jul 2018 19:38:50 +0200
+
 virtualbox-ext-pack (5.2.12-2) unstable; urgency=medium
 
   * Use directly /usr/bin/wget to avoid firejail issues (Closes: #898409)
