@@ -32,7 +32,7 @@ virtualbox-ext-pack (5.2.12-1) unstable; urgency=medium
 virtualbox-ext-pack (5.2.10-4) unstable; urgency=high
 
   * Fix hash due to upstream change. (Closes: #897052, LP: #1767533,
-    LP: #1767402) 
+    LP: #1767402)
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Sat, 28 Apr 2018 12:47:11 +0200
 
