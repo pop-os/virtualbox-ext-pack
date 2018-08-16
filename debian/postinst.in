@@ -22,7 +22,7 @@ if [ "$1" = "configure" ] ; then
 	cd /usr/share/virtualbox-ext-pack
 	echo "virtualbox-ext-pack: downloading: http://download.virtualbox.org/virtualbox/$version/$file"
 	echo "The file will be downloaded into /usr/share/virtualbox-ext-pack"
-	/usr/bin/wget -q -N http://download.virtualbox.org/virtualbox/$version/$file
+	/usr/bin/wget -q -N https://download.virtualbox.org/virtualbox/$version/$file
 	echo "$hash  $file" | sha256sum -c > /dev/null 2>&1 || error
 	vboxmanage extpack install --replace --accept-license=$accept_license $file || error
 fi
