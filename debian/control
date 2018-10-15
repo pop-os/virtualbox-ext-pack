@@ -1,7 +1,7 @@
 Source: virtualbox-ext-pack
 Section: contrib/misc
 Priority: optional
-Maintainer: Debian Virtualbox Team  <team+debian-virtualbox@tracker.debian.org>
+Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
 Uploaders:
  Gianfranco Costamagna <locutusofborg@debian.org>,
  Unit 193 <unit193@ubuntu.com>
