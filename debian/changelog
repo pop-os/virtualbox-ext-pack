@@ -1,3 +1,13 @@
+virtualbox-ext-pack (5.2.20-1) unstable; urgency=medium
+
+  [ Unit193 ]
+  * Update watch file to new format
+
+  [ Gianfranco Costamagna ]
+  * New upstream release, update postinst.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 17 Oct 2018 11:53:00 +0200
+
 virtualbox-ext-pack (5.2.18-1) unstable; urgency=medium
 
   * New upstream release, update postinst.
