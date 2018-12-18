@@ -9,7 +9,7 @@ accept_license=56be48f923303c8cababb0bb4c478284b688ed23f16d775d729b89a2e8e5f9eb
 error ()
 {
 	echo "Hash mismatch $file: expected $hash, or wrong accept-license key, removing the file."
-	rm -rf /usr/share/virtualbox-ext-pack/$file
+	rm -f /usr/share/virtualbox-ext-pack/$file
 	exit 1
 }
 
@@ -25,6 +25,7 @@ if [ "$1" = "configure" ] ; then
 	/usr/bin/wget -q -N https://download.virtualbox.org/virtualbox/$version/$file
 	echo "$hash  $file" | sha256sum -c > /dev/null 2>&1 || error
 	vboxmanage extpack install --replace --accept-license=$accept_license $file || error
+	rm -f /usr/share/virtualbox-ext-pack/$file
 fi
 
 #DEBHELPER#
