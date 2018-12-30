@@ -2,7 +2,6 @@ virtualbox-ext-pack (5.2.22-2) UNRELEASED; urgency=medium
 
   [ rvmefnto@yomail.info ]
   * use https in download url
-  * Add ext-pack removal also on successful installation
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 18 Dec 2018 17:33:16 +0100
 
