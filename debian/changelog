@@ -1,4 +1,4 @@
-virtualbox-ext-pack (6.0.0-1) experimental; urgency=medium
+virtualbox-ext-pack (6.0.0-1~exp1) experimental; urgency=medium
 
   [ rvmefnto@yomail.info ]
   * use https in download url
