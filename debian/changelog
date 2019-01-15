@@ -1,3 +1,10 @@
+virtualbox-ext-pack (6.0.2-1~exp1) experimental; urgency=medium
+
+  * New upstream version 6.0.2
+  * Update postinst file
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 15 Jan 2019 18:00:16 +0100
+
 virtualbox-ext-pack (6.0.0-1~exp1) experimental; urgency=medium
 
   [ rvmefnto@yomail.info ]
