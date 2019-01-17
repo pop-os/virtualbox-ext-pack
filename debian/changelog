@@ -1,3 +1,9 @@
+virtualbox-ext-pack (5.2.24-2) unstable; urgency=medium
+
+  * Do not use https in wget download
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 17 Jan 2019 13:13:17 +0100
+
 virtualbox-ext-pack (5.2.24-1) unstable; urgency=medium
 
   [ rvmefnto@yomail.info ]
