@@ -1,3 +1,10 @@
+virtualbox-ext-pack (6.0.4-1) unstable; urgency=medium
+
+  * New upstream version 6.0.4, update postinst.
+  * Upload to unstable
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 28 Jan 2019 16:34:27 +0100
+
 virtualbox-ext-pack (6.0.2-1~exp2) experimental; urgency=medium
 
   * Do not use https in wget download
