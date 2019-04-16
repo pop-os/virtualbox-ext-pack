@@ -1,3 +1,9 @@
+virtualbox-ext-pack (6.0.6-1) unstable; urgency=medium
+
+  * New upstream version 6.0.6, update postinst.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 16 Apr 2019 23:40:50 +0200
+
 virtualbox-ext-pack (6.0.4-1) unstable; urgency=medium
 
   * New upstream version 6.0.4, update postinst.
