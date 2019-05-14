@@ -1,5 +1,5 @@
 #!/bin/sh
-set -e
+#set -e
 
 version=#VERSION#
 hash=794f023a186bd217c29c3d30bd1434b6e9de3b242c7bf740d06d10f2d3d981c6
