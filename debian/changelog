@@ -1,8 +1,9 @@
-virtualbox-ext-pack (6.0.8-1) UNRELEASED; urgency=medium
+virtualbox-ext-pack (6.0.8-1) unstable; urgency=medium
 
-  * 
+  * New upstream version 6.0.6, update postinst.
+  * Bump compat level to 12 
 
- -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 15 May 2019 10:01:14 +0200
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 15 May 2019 10:02:10 +0200
 
 virtualbox-ext-pack (6.0.6-2) unstable; urgency=medium
 
