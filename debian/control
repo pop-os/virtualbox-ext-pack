@@ -6,7 +6,7 @@ Uploaders:
  Gianfranco Costamagna <locutusofborg@debian.org>,
  Unit 193 <unit193@ubuntu.com>
 Build-Depends:
- debhelper (>= 10),
+ debhelper-compat (= 12),
  po-debconf
 Standards-Version: 4.3.0
 Homepage: https://www.virtualbox.org

@@ -1,3 +1,9 @@
+virtualbox-ext-pack (6.0.8-1) UNRELEASED; urgency=medium
+
+  * 
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 15 May 2019 10:01:14 +0200
+
 virtualbox-ext-pack (6.0.6-2) unstable; urgency=medium
 
   * Try to not exit on some kind of errors during postinst/prerm,
