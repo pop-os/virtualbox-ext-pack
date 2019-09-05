@@ -2,7 +2,7 @@
 #set -e
 
 version=#VERSION#
-hash=e5a9eb240379a57c9bf03954a594a03431698e67aef551e27f62170bed9b16ea
+hash=27a0956940654b0accf4d79692078bd496d9f062e4ed3da69e5421cba8d1e444
 file=Oracle_VM_VirtualBox_Extension_Pack-$version.vbox-extpack
 accept_license=56be48f923303c8cababb0bb4c478284b688ed23f16d775d729b89a2e8e5f9eb
 
