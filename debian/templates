@@ -9,7 +9,7 @@
 
 Template: virtualbox-ext-pack/license
 Type: boolean
-Default: true
+Default: false
 #flag:translate:1,2
 _Description: Do you accept the terms of the VirtualBox PUEL license?
  Oracle Corporation requests VirtualBox users to acknowledge and

@@ -1,3 +1,10 @@
+virtualbox-ext-pack (6.0.12-2) unstable; urgency=medium
+
+  * Default eula to false, and disable autopkgtests, for legal issues
+    LP: #1844654
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sun, 22 Sep 2019 22:53:28 +0200
+
 virtualbox-ext-pack (6.0.12-1) unstable; urgency=medium
 
   * New upstream version 6.0.12
