@@ -1,3 +1,9 @@
+virtualbox-ext-pack (6.1.4-2) unstable; urgency=medium
+
+  * Bump std-version to 4.5.0
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 21 Feb 2020 09:26:56 +0100
+
 virtualbox-ext-pack (6.1.4-1) unstable; urgency=medium
 
   * New upstream version 6.1.4
