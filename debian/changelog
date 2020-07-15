@@ -1,3 +1,10 @@
+virtualbox-ext-pack (6.1.12-2) unstable; urgency=medium
+
+  [ Unit 193 ]
+  * d/control, d/copyright: Update my email address.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 15 Jul 2020 10:05:06 +0200
+
 virtualbox-ext-pack (6.1.12-1) unstable; urgency=medium
 
   * New upstream version 6.1.12
