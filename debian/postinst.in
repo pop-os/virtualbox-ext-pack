@@ -4,7 +4,7 @@
 version=#VERSION#
 hash=b224e796e886b19bce69f0aaedf6ca82bad0ca29c61fb0ed86166efb84356942
 file=Oracle_VM_VirtualBox_Extension_Pack-$version.vbox-extpack
-accept_license=56be48f923303c8cababb0bb4c478284b688ed23f16d775d729b89a2e8e5f9eb
+accept_license=33d7284dc4a0ece381196fda3cfe2ed0e1e8e7ed7f27b9a9ebc4ee22e24bd23c
 
 error ()
 {

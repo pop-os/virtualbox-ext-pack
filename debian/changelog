@@ -1,3 +1,9 @@
+virtualbox-ext-pack (6.1.14-2) unstable; urgency=medium
+
+  * Update accept license keyword and license
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 07 Sep 2020 11:37:57 +0200
+
 virtualbox-ext-pack (6.1.14-1) unstable; urgency=medium
 
   * New upstream version 6.1.14
