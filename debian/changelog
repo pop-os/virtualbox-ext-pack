@@ -1,3 +1,10 @@
+virtualbox-ext-pack (6.1.16-1) unstable; urgency=medium
+
+  * New upstream version 6.1.16
+  * Update postinst file
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 20 Oct 2020 22:11:00 +0200
+
 virtualbox-ext-pack (6.1.14-2) unstable; urgency=medium
 
   * Update accept license keyword and license
