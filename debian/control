@@ -9,6 +9,7 @@ Build-Depends:
  debhelper-compat (= 12),
  po-debconf
 Standards-Version: 4.5.0
+Rules-Requires-Root: no
 Homepage: https://www.virtualbox.org
 Vcs-Browser: https://salsa.debian.org/pkg-virtualbox-team/virtualbox-ext-pack
 Vcs-Git: https://salsa.debian.org/pkg-virtualbox-team/virtualbox-ext-pack.git
