@@ -1,3 +1,15 @@
+virtualbox-ext-pack (6.1.20-1) unstable; urgency=medium
+
+  [ Gianfranco Costamagna ]
+  * New upstream version 6.1.20
+  * Update postinst file
+  * Add R^3: no
+
+  [ rvmefnto@yomail.info ]
+  * Switch to https download mode
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 20 Apr 2021 20:29:00 +0200
+
 virtualbox-ext-pack (6.1.18-1) unstable; urgency=medium
 
   * New upstream version 6.1.18
@@ -118,7 +130,7 @@ virtualbox-ext-pack (6.0.10-1) unstable; urgency=medium
 virtualbox-ext-pack (6.0.8-1) unstable; urgency=medium
 
   * New upstream version 6.0.8, update postinst.
-  * Bump compat level to 12 
+  * Bump compat level to 12
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 15 May 2019 10:02:10 +0200
 
