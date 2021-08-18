@@ -1,3 +1,9 @@
+virtualbox-ext-pack (6.1.26-2) unstable; urgency=medium
+
+  * Add dependency on ca-certificates for https support (Closes: #991281)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 18 Aug 2021 11:48:47 +0200
+
 virtualbox-ext-pack (6.1.26-1) unstable; urgency=medium
 
   * New upstream version 6.1.26

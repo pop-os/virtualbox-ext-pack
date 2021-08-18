@@ -7,6 +7,7 @@ Uploaders:
  Unit 193 <unit193@debian.org>
 Build-Depends:
  debhelper-compat (= 12),
+ ca-certificates,
  po-debconf
 Standards-Version: 4.5.0
 Rules-Requires-Root: no
