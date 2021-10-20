@@ -1,3 +1,11 @@
+virtualbox-ext-pack (6.1.28-1) unstable; urgency=medium
+
+  * New upstream version 6.1.28
+  * Update postinst file
+  * Bump std-version to 4.6.0
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 20 Oct 2021 09:39:34 +0200
+
 virtualbox-ext-pack (6.1.26-2) unstable; urgency=medium
 
   * Add dependency on ca-certificates for https support (Closes: #991281)
