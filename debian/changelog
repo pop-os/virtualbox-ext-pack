@@ -1,3 +1,9 @@
+virtualbox-ext-pack (6.1.36-1pop1) unstable; urgency=medium
+
+  * Release on Pop!_OS
+
+ -- Brock Szuszczewicz <brock@szu.email>  Thu, 11 Aug 2022 12:33:40 -0600
+
 virtualbox-ext-pack (6.1.36-1) unstable; urgency=medium
 
   * New upstream version 6.1.36
