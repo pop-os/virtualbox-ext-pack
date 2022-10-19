@@ -9,7 +9,7 @@ Disclaimer: This package is formally not part of the Debian GNU/Linux
 Files: *
 Copyright:
         2015-2020 Unit 193 <unit193@debian.org>
-        2015-2020 Gianfranco Costamagna <locutusofborg@debian.org>
+        2015-2022 Gianfranco Costamagna <locutusofborg@debian.org>
 Comment: the downloaded package is released with a PUEL license.
         https://www.virtualbox.org/wiki/VirtualBox_PUEL
 License: BSD-3-clause
