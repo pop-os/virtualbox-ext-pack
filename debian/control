@@ -20,8 +20,8 @@ Architecture: all
 Pre-Depends:
  debconf
 Depends:
- virtualbox (>= ${virtualbox:Version}) | virtualbox-6.1,
- virtualbox (<< ${virtualbox:nextVersion}) | virtualbox-6.1,
+ virtualbox (>= ${virtualbox:Version}) | virtualbox-7.0,
+ virtualbox (<< ${virtualbox:nextVersion}) | virtualbox-7.0,
  wget,
  ${misc:Depends}
 Description: extra capabilities for VirtualBox, downloader.
