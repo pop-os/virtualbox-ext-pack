@@ -1,3 +1,12 @@
+virtualbox-ext-pack (7.0.4-1) unstable; urgency=medium
+
+  * Upload to sid
+  * Lower compat level to 12, to ease backports
+  * Update postinst
+  * New upstream version 7.0.4
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 23 Nov 2022 09:35:15 +0100
+
 virtualbox-ext-pack (7.0.2-1) experimental; urgency=medium
 
   * New upstream version 7.0.2
