@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Paulo Henrique de Lima Santana (phls) <phls@debian.org>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: virtualbox-ext-pack_7.0.4-1\n"
+"Report-Msgid-Bugs-To: virtualbox-ext-pack@packages.debian.org\n"
+"POT-Creation-Date: 2015-09-16 19:11+0200\n"
+"PO-Revision-Date: 2022-11-29 18:58-0300\n"
+"Last-Translator: Paulo Henrique de Lima Santana (phls) <phls@debian.org>\n"
+"Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
+"org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 42.0\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you accept the terms of the VirtualBox PUEL license?"
+msgstr "Você aceita os termos da licença do VirtualBox PUEL?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Oracle Corporation requests VirtualBox users to acknowledge and accept the "
+"\"VirtualBox Personal Use and Evaluation License\" (PUEL). Please read the "
+"license below. If you accept this license, the package installation will "
+"continue. If you refuse it, it will be interrupted."
+msgstr ""
+"A Oracle Corporation solicita aos utilizadores da VirtualBox que reconheçam "
+"e aceitem a \"VirtualBox Personal Use and Evaluation License\" (PUEL). Por "
+"favor, leia a licença abaixo. Se você aceitar esta licença, a instalação do "
+"pacote continuará. Se você recusar, será interrompida."
