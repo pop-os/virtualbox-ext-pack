@@ -1,7 +1,11 @@
-virtualbox-ext-pack (7.0.4-2) UNRELEASED; urgency=medium
+virtualbox-ext-pack (7.0.6-1) UNRELEASED; urgency=medium
 
   [ Paulo Henrique de Lima Santana <phls@debian.org> ]
   * Add Brazilian Portuguese debconf templates translation (Closes: #1025429)
+
+  [ Gianfranco Costamagna ]
+  * New upstream version 7.0.6
+  * Update postinst
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 10 Jan 2023 07:10:25 +0100
 
