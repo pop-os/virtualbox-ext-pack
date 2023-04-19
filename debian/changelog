@@ -1,3 +1,11 @@
+virtualbox-ext-pack (7.0.8-1) unstable; urgency=medium
+
+  * Add new way to get orig source
+  * New upstream version 7.0.8
+  * Update postinst
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 19 Apr 2023 09:49:25 +0200
+
 virtualbox-ext-pack (7.0.6-1) unstable; urgency=medium
 
   [ Paulo Henrique de Lima Santana <phls@debian.org> ]
