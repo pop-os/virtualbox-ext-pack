@@ -1,3 +1,9 @@
+virtualbox-ext-pack (7.0.8-1pop1) jammy; urgency=medium
+
+  * Pop!_OS Release
+
+ -- Brock Szuszczewicz <brock@szu.email>  Tue, 25 Apr 2023 10:10:43 -0600
+
 virtualbox-ext-pack (7.0.8-1) unstable; urgency=medium
 
   * Add new way to get orig source
