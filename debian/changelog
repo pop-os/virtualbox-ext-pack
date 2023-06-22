@@ -1,3 +1,9 @@
+virtualbox-ext-pack (7.0.8-2) unstable; urgency=medium
+
+  * Also runtime-depends on ca-certificates (Closes: #1035283)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 22 Jun 2023 14:02:44 +0200
+
 virtualbox-ext-pack (7.0.8-1) unstable; urgency=medium
 
   * Add new way to get orig source

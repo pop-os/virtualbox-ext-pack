@@ -23,6 +23,7 @@ Depends:
  virtualbox (>= ${virtualbox:Version}) | virtualbox-7.0,
  virtualbox (<< ${virtualbox:nextVersion}) | virtualbox-7.0,
  wget,
+ ca-certificates,
  ${misc:Depends}
 Description: extra capabilities for VirtualBox, downloader.
  VirtualBox requires an extension pack to provide support for Remote
