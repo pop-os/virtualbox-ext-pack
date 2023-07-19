@@ -1,3 +1,10 @@
+virtualbox-ext-pack (7.0.10-1) unstable; urgency=medium
+
+  * New upstream version 7.0.8
+  * Update postinst
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 19 Jul 2023 12:59:19 +0200
+
 virtualbox-ext-pack (7.0.8-2) unstable; urgency=medium
 
   * Also runtime-depends on ca-certificates (Closes: #1035283)
