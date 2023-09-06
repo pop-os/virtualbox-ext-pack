@@ -3,6 +3,6 @@
 
 vboxmanage extpack uninstall "Oracle VM VirtualBox Extension Pack"
 vboxmanage extpack cleanup
-rm -f /usr/share/virtualbox-ext-pack/*.vbox-extpack
+rm -f /var/cache/virtualbox-ext-pack/*.vbox-extpack
 
 #DEBHELPER#
