@@ -1,17 +1,17 @@
 #!/bin/sh
 #set -e
 
-version=#VERSION#
-hash=af84dccac488df72bfaeb1eb8c922ba466668561a6ac05c64a7f8b6ebdddbaeb
-file=Oracle_VM_VirtualBox_Extension_Pack-$version.vbox-extpack
-accept_license=33d7284dc4a0ece381196fda3cfe2ed0e1e8e7ed7f27b9a9ebc4ee22e24bd23c
+version="#VERSION#"
+hash="af84dccac488df72bfaeb1eb8c922ba466668561a6ac05c64a7f8b6ebdddbaeb"
+file="Oracle_VM_VirtualBox_Extension_Pack-${version}.vbox-extpack"
+accept_license="33d7284dc4a0ece381196fda3cfe2ed0e1e8e7ed7f27b9a9ebc4ee22e24bd23c"
 
 error ()
 {
-	if [ "$1" = "hash" ] ; then
-		echo "Hash mismatch $file: expected $hash, removing the file."
-		rm -f $file
-	elif [ "$1" = "install" ]; then
+	if [ "${1}" = "hash" ] ; then
+		echo "Hash mismatch ${file}: expected ${hash}, removing the file."
+		rm -f ${file}
+	elif [ "${1}" = "install" ]; then
 		echo "Installation error: License key incorrect or unknown problem during installation."
 	fi
 	exit 1
@@ -20,19 +20,20 @@ error ()
 # Source debconf library.
 . /usr/share/debconf/confmodule
 
-if [ "$1" = "configure" ] ; then
-	if [ -f /usr/share/virtualbox-ext-pack/$file ]; then
-		echo "installing pre-downloaded file from /usr/share/virtualbox-ext-pack"
-		cd /usr/share/virtualbox-ext-pack
+if [ "${1}" = "configure" ] ; then
+	sharedir="/usr/share/virtualbox-ext-pack"
+	cachedir="/var/cache/virtualbox-ext-pack"
+	if [ -f ${sharedir}/${file} ]; then
+		echo "installing pre-downloaded file from ${sharedir}"
+		cd ${sharedir}
 	else
-		cd /var/cache/virtualbox-ext-pack
-		echo "virtualbox-ext-pack: downloading: https://download.virtualbox.org/virtualbox/$version/$file"
-		echo "The file will be downloaded into /var/cache/virtualbox-ext-pack"
-		/usr/bin/wget -q -N https://download.virtualbox.org/virtualbox/$version/$file
+		cd ${cachedir}
+		echo "virtualbox-ext-pack: downloading: https://download.virtualbox.org/virtualbox/${version}/${file}"
+		echo "The file will be downloaded into ${cachedir}"
+		/usr/bin/wget -q -N https://download.virtualbox.org/virtualbox/${version}/${file}
 	fi
-	cd -
-	echo "$hash  $file" | sha256sum -c > /dev/null 2>&1 || error hash
-	vboxmanage extpack install --replace --accept-license=$accept_license $file || error install
+	echo "${hash} ${file}" | sha256sum -c > /dev/null 2>&1 || error hash
+	vboxmanage extpack install --replace --accept-license=${accept_license} ${file} || error install
 fi
 
 #DEBHELPER#

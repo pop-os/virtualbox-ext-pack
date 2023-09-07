@@ -1,3 +1,10 @@
+virtualbox-ext-pack (7.0.10-3) unstable; urgency=medium
+
+  * Fixup regression, thanks to IOhannes m zmoelnig <umlaeute@debian.org>
+    (Closes: #1051394)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 07 Sep 2023 12:42:58 +0200
+
 virtualbox-ext-pack (7.0.10-2) unstable; urgency=medium
 
   * Fix postinst to use /var/cache instead of /usr, but take files from /usr
