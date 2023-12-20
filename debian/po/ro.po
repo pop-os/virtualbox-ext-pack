@@ -1,0 +1,43 @@
+# Mesajele în limba română pentru pachetul virtualbox-ext-pack (debconf).
+# Romanian translation of virtualbox-ext-pack (debconf).
+# Copyright © 2023 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the virtualbox-ext-pack package.
+#
+# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: virtualbox-ext-pack\n"
+"Report-Msgid-Bugs-To: virtualbox-ext-pack@packages.debian.org\n"
+"POT-Creation-Date: 2015-09-16 19:11+0200\n"
+"PO-Revision-Date: 2023-12-13 11:34+0100\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
+"Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && "
+"n%100<=19) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you accept the terms of the VirtualBox PUEL license?"
+msgstr "Acceptați termenii licenței PUEL VirtualBox?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Oracle Corporation requests VirtualBox users to acknowledge and accept the "
+"\"VirtualBox Personal Use and Evaluation License\" (PUEL). Please read the "
+"license below. If you accept this license, the package installation will "
+"continue. If you refuse it, it will be interrupted."
+msgstr ""
+"Oracle Corporation solicită utilizatorilor VirtualBox să recunoască și să "
+"accepte „Licența de utilizare și evaluare personală VirtualBox” (PUEL). Vă "
+"rugăm să citiți licența de mai jos. Dacă acceptați această licență, "
+"instalarea pachetului va continua. Dacă o refuzați, aceasta va fi "
+"întreruptă."
