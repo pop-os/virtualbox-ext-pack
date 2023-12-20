@@ -1,3 +1,9 @@
+virtualbox-ext-pack (7.0.12-3) unstable; urgency=medium
+
+  * Add romanian translation (Closes: #1059157)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 20 Dec 2023 19:32:49 +0100
+
 virtualbox-ext-pack (7.0.12-2) unstable; urgency=medium
 
   * Update hash
