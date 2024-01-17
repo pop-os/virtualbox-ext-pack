@@ -26,4 +26,5 @@ tar cJvf ${PACKAGE_NAME}_${UPSTREAM_VERSION}.orig.tar.xz ${PACKAGE_NAME}_${UPSTR
 rm -rf ${PACKAGE_NAME}_${UPSTREAM_VERSION}
 mv ${PACKAGE_NAME}_${UPSTREAM_VERSION}.orig.tar.xz ..
 
-echo "Done, now you can run \ngbp import-orig ../${PACKAGE_NAME}_${UPSTREAM_VERSION}.orig.tar.xz"
+echo "Done, now you can run:"
+echo "gbp import-orig ../${PACKAGE_NAME}_${UPSTREAM_VERSION}.orig.tar.xz"
