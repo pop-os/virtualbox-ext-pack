@@ -1,3 +1,11 @@
+virtualbox-ext-pack (7.0.14-1) unstable; urgency=medium
+
+  * Update postinst file
+  * New upstream version 7.0.14
+  * Update get-orig-source.sh script
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 17 Jan 2024 09:40:58 +0100
+
 virtualbox-ext-pack (7.0.12-3) unstable; urgency=medium
 
   * Add romanian translation (Closes: #1059157)
