@@ -6,10 +6,10 @@ Uploaders:
  Gianfranco Costamagna <locutusofborg@debian.org>,
  Unit 193 <unit193@debian.org>
 Build-Depends:
- debhelper-compat (= 12),
+ debhelper-compat (= 13),
  ca-certificates,
  po-debconf
-Standards-Version: 4.6.1
+Standards-Version: 4.7.0
 Rules-Requires-Root: no
 Homepage: https://www.virtualbox.org
 Vcs-Browser: https://salsa.debian.org/pkg-virtualbox-team/virtualbox-ext-pack
