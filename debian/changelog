@@ -1,3 +1,10 @@
+virtualbox-ext-pack (7.0.20-1) UNRELEASED; urgency=medium
+
+  * Update postinst file
+  * New upstream version 7.0.20
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 16 Jul 2024 14:57:00 +0200
+
 virtualbox-ext-pack (7.0.18-1) unstable; urgency=medium
 
   * Update postinst file
