@@ -17,18 +17,18 @@ _Description: Do you accept the terms of the VirtualBox PUEL license?
  read the license below. If you accept this license, the package
  installation will continue. If you refuse it, it will be interrupted.
  .
- VirtualBox Extension Pack Personal Use and Evaluation License (PUEL)
+ VirtualBox Extension Pack Personal Use and Educational License (PUEL)
  .
- License version 11, 21 May 2020
+ License version 12, 22 July 2024
  .
- PLEASE READ THE FOLLOWING ORACLE VM VIRTUALBOX EXTENSION PACK PERSONAL
- USE AND EVALUATION LICENSE CAREFULLY BEFORE DOWNLOADING OR USING THE
- ORACLE SOFTWARE. THESE TERMS AND CONDITIONS CONSTITUTE A LEGAL AGREEMENT
- BETWEEN YOU AND ORACLE.
+ PLEASE READ THE FOLLOWING ORACLE VIRTUALBOX EXTENSION PACK PERSONAL USE
+ AND EDUCATIONAL LICENSE CAREFULLY BEFORE DOWNLOADING OR USING THE ORACLE
+ SOFTWARE. THESE TERMS AND CONDITIONS CONSTITUTE A LEGAL AGREEMENT BETWEEN
+ YOU AND ORACLE.
  .
  ORACLE AMERICA, INC. ("ORACLE") IS WILLING TO LICENSE THE PRODUCT DEFINED
  IN SECTION 1 BELOW ONLY ON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS
- CONTAINED IN THIS VIRTUALBOX EXTENSION PACK PERSONAL USE AND EVALUATION
+ CONTAINED IN THIS VIRTUALBOX EXTENSION PACK PERSONAL USE AND EDUCATIONAL
  LICENSE AGREEMENT ("AGREEMENT").
  .
  IF YOU ARE AGREEING TO THIS LICENSE ON BEHALF OF AN ENTITY (RATHER THAN
@@ -36,29 +36,27 @@ _Description: Do you accept the terms of the VirtualBox PUEL license?
  AUTHORITY TO ACCEPT THESE TERMS AND CONDITIONS ON BEHALF OF SUCH ENTITY.
  .
  1 SUBJECT OF AGREEMENT. This Agreement governs your use of the binary
- software package called "Oracle VM VirtualBox Extension Pack" (the
+ software package called "Oracle VirtualBox Extension Pack" (the
  "Product"), which contains a set of additional features for "Oracle
- VM VirtualBox" that enhance the operation of multiple virtual machines
+ VirtualBox" that enhance the operation of multiple virtual machines
  ("Guest Computers") on a single physical computer ("Host Computer"). The
- Product consists of executable files in machine code, script files,
- data files, and all documentation and updates provided to You by Oracle.
+ Product consists of executable files in machine code, script files, data
+ files, and all documentation and updates provided to You by Oracle.
  .
  2 GRANT OF LICENSE. Oracle grants you a personal, non-exclusive,
  non-transferable, limited license without fees to reproduce, install,
- execute, and use internally the Product on Host Computers for
- your Personal Use, Educational Use, or Evaluation. "Personal Use"
- is noncommercial use solely by the person downloading the Product
- from Oracle on a single Host Computer, provided that no more than one
- client or remote computer is connected to that Host Computer and that
- client or remote computer is used solely to remotely view the Guest
- Computer(s). "Educational Use" is any use by teachers or students in
- an academic institution (schools, colleges and universities) as part of
- the institution's educational curriculum. "Evaluation" means testing the
- Product for up to thirty (30) days; after expiry of that term, you are
- no longer permitted to use the Product. Personal Use and/or Educational
- Use expressly exclude any use of the Product for commercial purposes or
- to operate, run, or act on behalf of or for the benefit of a business,
- organization, governmental organization, or educational institution.
+ execute, and use internally the Product on Host Computers for your
+ Personal Use, or Educational Use. "Personal Use" is noncommercial use
+ solely by the person downloading the Product from Oracle on a single Host
+ Computer, provided that no more than one client or remote computer is
+ connected to that Host Computer and that client or remote computer is used
+ solely to remotely view the Guest Computer(s). "Educational Use" is any
+ use by teachers or students in an academic institution (schools, colleges
+ and universities) as part of the institution's educational curriculum.
+ Personal Use and/or Educational Use expressly exclude any use of the
+ Product for commercial purposes or to operate, run, or act on behalf of or
+ for the benefit of a business, organization, governmental organization, or
+ educational institution.
  .
  Oracle reserves all rights not expressly granted in this license.
  .
