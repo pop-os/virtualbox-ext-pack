@@ -1,3 +1,15 @@
+virtualbox-ext-pack (7.1.0-1) unstable; urgency=medium
+
+  * New upstream version 7.1.0
+  * Update postinst hash
+  * Depend on virtualbox 7.1
+  * Update filename on watch file
+  * Update template for the license, was updated
+  * Also update filename for the download
+  * Update the license checksum for the auto accept
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 12 Sep 2024 09:10:56 +0200
+
 virtualbox-ext-pack (7.0.20-1) unstable; urgency=medium
 
   * Update postinst file
