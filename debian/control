@@ -20,8 +20,8 @@ Architecture: all
 Pre-Depends:
  debconf
 Depends:
- virtualbox (>= ${virtualbox:Version}) | virtualbox-7.0,
- virtualbox (<< ${virtualbox:nextVersion}) | virtualbox-7.0,
+ virtualbox (>= ${virtualbox:Version}) | virtualbox-7.1,
+ virtualbox (<< ${virtualbox:nextVersion}) | virtualbox-7.1,
  wget,
  ca-certificates,
  ${misc:Depends}
