@@ -1,0 +1,38 @@
+# Catalan translation of virtualbox-ext-pack's debconf messages
+# Copyright © 2024 Free Software Foundation, Inc.
+# This file is distributed under the same license as the virtualbox-ext-pack package.
+# poc senderi <pocsenderi@protonmail.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: virtualbox-ext-pack\n"
+"Report-Msgid-Bugs-To: virtualbox-ext-pack@packages.debian.org\n"
+"POT-Creation-Date: 2015-09-16 19:11+0200\n"
+"PO-Revision-Date: 2024-08-28 17:07+0200\n"
+"Last-Translator: poc senderi <pocsenderi@protonmail.com>\n"
+"Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you accept the terms of the VirtualBox PUEL license?"
+msgstr "Accepteu les condicions de la llicència PUEL de VirtualBox?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Oracle Corporation requests VirtualBox users to acknowledge and accept the "
+"\"VirtualBox Personal Use and Evaluation License\" (PUEL). Please read the "
+"license below. If you accept this license, the package installation will "
+"continue. If you refuse it, it will be interrupted."
+msgstr ""
+"Oracle Corporation sol·licita als usuaris de VirtualBox que reconeguin i "
+"acceptin la «Llicència personal d'ús i avaluació de VirtualBox» (PUEL). "
+"Llegiu la llicència a continuació. Si accepteu aquesta llicència, la "
+"instal·lació del paquet continuarà. Si ho rebutgeu, s'interromprà."
