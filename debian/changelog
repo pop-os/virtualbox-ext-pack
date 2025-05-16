@@ -1,13 +1,11 @@
 virtualbox-ext-pack (7.1.8-1) unstable; urgency=medium
 
+  [ Mateusz Łukasik ]
   * Team upload.
   * New upstream version 7.1.8
   * Update postinst hash
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 17 Apr 2025 22:04:50 +0200
-
-virtualbox-ext-pack (7.1.0-1) UNRELEASED; urgency=medium
-
+  [ Gianfranco Costamagna ]
   * New upstream version 7.1.0
   * Update postinst hash
   * Depend on virtualbox 7.1
@@ -16,7 +14,7 @@ virtualbox-ext-pack (7.1.0-1) UNRELEASED; urgency=medium
   * Also update filename for the download
   * Update the license checksum for the auto accept
 
- -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 12 Sep 2024 09:10:56 +0200
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 16 May 2025 15:19:45 +0200
 
 virtualbox-ext-pack (7.0.26-1) unstable; urgency=medium
 
