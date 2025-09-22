@@ -1,3 +1,9 @@
+virtualbox-ext-pack (7.2.2-1pop1) jammy; urgency=medium
+
+  * Package for Pop!_OS
+
+ -- Jacob Kauffmann <jacob@system76.com>  Mon, 22 Sep 2025 16:12:44 -0600
+
 virtualbox-ext-pack (7.2.2-1) unstable; urgency=medium
 
   * New upstream version 7.2.2
