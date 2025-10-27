@@ -1,3 +1,10 @@
+virtualbox-ext-pack (7.2.4-1) unstable; urgency=medium
+
+  * New upstream version 7.2.4
+  * Update postinst.in
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 27 Oct 2025 19:10:32 +0100
+
 virtualbox-ext-pack (7.2.2-1) unstable; urgency=medium
 
   * New upstream version 7.2.2
