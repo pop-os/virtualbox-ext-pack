@@ -1,3 +1,9 @@
+virtualbox-ext-pack (7.2.14-1pop1) UNRELEASED; urgency=medium
+
+  * Package 7.2.14 for Pop!_OS
+
+ -- Jonah Grasso <jonah@system76.com>  Wed, 12 Aug 2026 10:09:16 -0600
+
 virtualbox-ext-pack (7.2.14-1) unstable; urgency=medium
 
   * New upstream version 7.2.14
